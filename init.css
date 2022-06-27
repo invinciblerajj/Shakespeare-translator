@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+:root{
+    font-family: 'Goldman', cursive;
+    --gray:#6B7280;
+    --light-gray:#F3F4F6 ;
+    background-color: var(--light-gray);
+}
+
+h1{
+    text-align: center;
+    background-color: var(--gray); 
+    padding: 1rem;
+    border-radius: 50%;
+    text-shadow: 0 0 3px yellow;
+    
+}
+
+
+#image {
+    display:block;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    border-radius:50%;
+}
+
+#txtarea-input {
+    display:block;
+    margin: auto;
+    height: 100px;
+    width: 600px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#button-translate {
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius:1rem;
+    border-width:0.3rem;
+    font-size:medium;
+
+}
+
+#txtarea-output{
+    border: solid black 0.5px;
+    display:block;
+    margin: auto;
+    height: 100px;
+    width: 600px;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color:white;
+    color: black;
+}
+
+#subheading-txtarea {
+    display: block;
+    font-size: larger;
+    margin:1rem;
+    text-align:center;
+}
+
